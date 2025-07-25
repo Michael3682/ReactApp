@@ -1,0 +1,54 @@
+:root {
+    --preset-color-blue: hsl(214, 59%, 52%);
+    --preset-color-black: hsl(0, 3%, 7%);
+    --preset-color-white: hsl(0, 0%, 100%);
+    --preset-color-black-light: hsla(0, 0%, 17%, 0.349);
+    --font-size-medium: .8rem;
+    --font-size-small: .7rem;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--preset-color-white);
+}
+.navbar .logo {
+    font-weight: 1000;
+    color: var(--preset-color-blue);
+}
+.navbar .navigation-links {
+    gap: 30px;
+    display: flex;
+}
+.navbar .navigation-links a {
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--preset-color-black);
+    font-size: var(--font-size-medium);
+}
+
+.navbar .buttons {
+    gap: 30px;
+    display: flex;
+}
+.navbar .buttons a {
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    text-decoration: none;
+    color: var(--preset-color-black);
+}
+.navbar .buttons a:first-child {
+    font-size: var(--font-size-medium);
+}
+.navbar .buttons a:last-child {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    color: var(--preset-color-black);
+    font-size: var(--font-size-small);
+    border: 1px solid var(--preset-color-black-light);
+}
+.navbar .buttons a:last-child:hover { 
+    border: 1px solid var(--preset-color-black);
+}
