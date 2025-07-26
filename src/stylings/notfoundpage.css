@@ -1,0 +1,36 @@
+:root {
+    --preset-color-white: hsl(0, 0%, 100%);
+    --preset-color-blue: hsl(214, 59%, 52%);
+}
+* {
+    text-decoration: none;
+}
+.not-found-page--container {
+    gap: 50px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.not-found-page--container .not-found-page--title {
+    margin-bottom: 0;
+    font-size: 3.5rem;
+    color: var(--preset-color-white);
+}
+.not-found-page--container .not-found-page--button {
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 15px 35px;
+    width: fit-content;
+    transition: all .25s;
+    color: var(--preset-color-blue);
+    border: 2px solid var(--preset-color-white);
+    background-color: var(--preset-color-white);
+}
+.not-found-page--container .not-found-page--button:hover {
+    background-color: transparent;
+    color: var(--preset-color-white);
+    border: 2px solid var(--preset-color-white);
+}

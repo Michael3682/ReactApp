@@ -34,7 +34,6 @@
     padding: 15px 35px;
     width: fit-content;
     transition: all .25s;
-    text-decoration: none;
     color: var(--preset-color-blue);
     border: 2px solid var(--preset-color-white);
     background-color: var(--preset-color-white);

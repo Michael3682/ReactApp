@@ -1,4 +1,5 @@
 import "../stylings/main.css"
+import { Link } from "react-router-dom"
 import HeroFeaturedImage from "../assets/hero-featured-image.png"
 import HeroFeaturedSupporting1 from "../assets/hero-featured-supporting-1.png"
 import HeroFeaturedSupporting2 from "../assets/hero-featured-supporting-2.png"
@@ -11,7 +12,9 @@ export default function Main() {
                 <div className="hero-featured--content">
                     <h1 className="hero-featured--title">Be inspired. Stay informed.</h1>
                     <p className="hero-featured--subtext">See how much interest brands and content generate in the wild.</p>
-                    <a className="hero-featured--button" href="">Start Your Free Trial</a>
+                    <Link to={"/trial"} className="hero-featured--button">
+                        <span>Start Your Free Trial</span>
+                    </Link>
                 </div>
                 <div className="hero-featured--images">
                     <img className="hero-featured--image" src={HeroFeaturedImage} />
