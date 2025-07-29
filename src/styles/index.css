@@ -4,8 +4,8 @@
     --font-size-medium: .8rem;
     --preset-color-black: hsl(0, 3%, 7%);
     --preset-color-white: hsl(0, 0%, 100%);
-    --border: 1px solid hsla(0, 0%, 17%, 0.3);
     --preset-color-blue: hsl(214, 91%, 57%);
+    --border: 1px solid hsla(0, 0%, 17%, 0.3);
     --preset-color-black-light: hsla(0, 0%, 17%, 0.349);
     --preset-shadow: 0 0 15px 5px var(--preset-color-black-light);
 }
