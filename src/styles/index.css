@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+:root {
+    --font-size-medium: .8rem;
+    --preset-color-black: hsl(0, 3%, 7%);
+    --preset-color-white: hsl(0, 0%, 100%);
+    --border: 1px solid hsla(0, 0%, 17%, 0.3);
+    --preset-color-blue: hsl(214, 91%, 57%);
+    --preset-color-black-light: hsla(0, 0%, 17%, 0.349);
+    --preset-shadow: 0 0 15px 5px var(--preset-color-black-light);
+}
+
 body {
     margin: 0;
     padding: 0;

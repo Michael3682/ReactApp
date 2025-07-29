@@ -1,9 +1,7 @@
-import "./stylings/index.css"
+import "./styles/index.css"
 
 import App from "./app"
-import Main from "./components/main"
 import Login from "./components/login"
-import Navbar from "./components/navbar"
 import NotFoundPage from "./components/notfoundpage"
 
 import { StrictMode } from "react"
@@ -13,10 +11,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 const root = createRoot(document.getElementById('root'))
 
 const router = createBrowserRouter([
-    { path:"/", element:<App />},
-    { path:"/main", element: <Main /> },
-    { path:"/navbar", element: <Navbar /> },
-    { path:"/login", element: <Login /> },
+    { path:"/", element: <Login /> },
+    { path:"/home", element: <App /> },
     { path:"*", element: <NotFoundPage /> },
 ])
 

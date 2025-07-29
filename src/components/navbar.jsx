@@ -1,4 +1,4 @@
-import "../stylings/navbar.css"
+import "../styles/navbar.css"
 import { Link } from "react-router-dom"
 
 export default function Header() {
@@ -24,7 +24,7 @@ export default function Header() {
                     </Link>
                 </div>
                 <div className="navigation-bar--buttons-container">
-                    <Link to={"/login"} className="navigation-bar--button-login">
+                    <Link to={"/"} className="navigation-bar--button-login">
                         <span>Login</span>
                     </Link>
                     <Link to={"/trial"} className="navigation-bar--button-free-trial">

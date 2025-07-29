@@ -1,34 +1,27 @@
-:root {
-    --preset-color-black: hsl(0, 3%, 7%);
-    --preset-color-white: hsl(0, 0%, 100%);
-    --preset-color-blue: hsl(214, 59%, 52%);
-    --preset-color-black-light: hsla(0, 0%, 17%, 0.349);
-    --preset-shadow: 0 0 15px 5px var(--preset-color-black-light);
-}
-#hero-featured {
+.hero-featured {
     padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#hero-featured .hero-featured--content {
+.hero-featured .hero-featured--content {
     display: flex;
     flex-direction: column;
     color: var(--preset-color-white);
 }
-#hero-featured .hero-featured--content .hero-featured--title {
+.hero-featured .hero-featured--content .hero-featured--title {
     width: 400px;
     margin-bottom: 0;
     font-size: 3.5rem;
 }
-#hero-featured .hero-featured--content .hero-featured--subtext {
+.hero-featured .hero-featured--content .hero-featured--subtext {
     width: 500px;
     font-weight: 500;
     line-height: 35px;
     font-size: 1.25rem;
     margin-bottom: 4rem;
 }
-#hero-featured .hero-featured--content .hero-featured--button {
+.hero-featured .hero-featured--content .hero-featured--button {
     font-weight: 700;
     border-radius: 8px;
     padding: 15px 35px;
@@ -38,27 +31,27 @@
     border: 2px solid var(--preset-color-white);
     background-color: var(--preset-color-white);
 }
-#hero-featured .hero-featured--content .hero-featured--button:hover {
+.hero-featured .hero-featured--content .hero-featured--button:hover {
     background-color: transparent;
     color: var(--preset-color-white);
     border: 2px solid var(--preset-color-white);
 }
-#hero-featured .hero-featured--images {
+.hero-featured .hero-featured--images {
     position: relative;
 }
-#hero-featured .hero-featured--images .hero-featured--supporting--1 {
+.hero-featured .hero-featured--images .hero-featured--supporting--1 {
     top: 60px;
     left: -50px;
     position: absolute;
     box-shadow: var(--preset-shadow);
 }
-#hero-featured .hero-featured--images .hero-featured--supporting--2 {
+.hero-featured .hero-featured--images .hero-featured--supporting--2 {
     top: 210px;
     right: -50px;
     position: absolute;
     box-shadow: var(--preset-shadow);
 }
-#hero-featured .hero-featured--images .hero-featured--supporting--3 {
+.hero-featured .hero-featured--images .hero-featured--supporting--3 {
     left: -60px;
     bottom: 40px;
     position: absolute;
